@@ -109,7 +109,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
@@ -138,7 +138,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
@@ -167,7 +167,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
@@ -196,7 +196,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
@@ -236,7 +236,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
@@ -265,7 +265,7 @@ const Moreactive = ({canmore, setcanmore,postactive,form}) => {
                     })(
                         <Upload
                         listType="picture"
-                        action="https://activity1-upload.miniaixue.com/https-uploads"
+                        action="图片转换的url"
                         data={{
                             token: localStorage.getItem('token'),
                         }}
