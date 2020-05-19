@@ -174,10 +174,18 @@ const DynamicFieldSet = ({form}) => {}
 ```
 5. form.validateFields用来触发触发表单验证
 ```
-form.validateFields((err, fieldsValue) => {
-    if (err) return;
-    console.log(fieldsValue)
-});
+const handleSubmit = e => {
+  e.preventDefault();
+  form.validateFields((err, values) => {
+    if (!err) {
+      console.log('Received values of form: ', values);
+    }
+  });
+};
+```
+6. 通过onSubmit把验证函数绑定到表单
+```
+<Form onSubmit={(e)=>handleSubmit(e)}></Form>
 ```
 
 #### 详细代码如下
