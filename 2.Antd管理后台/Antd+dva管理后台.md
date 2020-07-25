@@ -332,3 +332,26 @@ const handleUpload = ({ fileList }, name) => {
           }
         }
 ```
+
+## table中的分页请求
+```
+<Table
+                columns={col}
+                dataSource={packages}
+                pagination={{
+                showSizeChanger: true,
+                showQuickJumper: true,
+                showTotal: () => `总共有${pagination.total}条数据`,
+                total: pagination.total,
+                pageSize: pagination.pageSize,
+                current: pagination.current,
+                onChange: (current) => {
+                    getList({
+                        pageSize: 10,
+                        current: current
+                    });
+                }
+                }}
+                rowKey={record => record.id}
+            />
+```
