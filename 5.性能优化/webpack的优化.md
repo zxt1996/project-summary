@@ -32,3 +32,6 @@
 
 ### Separate application code and third-party libs
 - SplitChunksPlugin
+
+## 参考资料
+[An in-depth guide to performance optimization with webpack](https://blog.logrocket.com/guide-performance-optimization-webpack/)
